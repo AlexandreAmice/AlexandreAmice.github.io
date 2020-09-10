@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Alexandre Amice"
 title_separator          : "-"
 name                     : &name "Alexandre Amice"
 description              : &description "personal website" # note sure what this line does
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Alexandre Amice"
   avatar           : "Alexandre Amice Cropped.png"
-  bio              : "PhD Candidate in EECS at MIT" # | Laboratory for Information and Decision Systems | CSAIL"
+  bio              : "PhD Candidate in Electrical Engineering and Computer Science" # | Laboratory for Information and Decision Systems | CSAIL"
   location         : # "Location"
-  employer         :
+  employer         : "MIT LIDS & CSAIL"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=eYY2nMYAAAAJ&hl=en&oi=ao"
   email            :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/alexandre-amice-6ba400129/"
   orcid            : "https://orcid.org/0000-0002-3955-9560"
   pinterest        :
   soundcloud       :
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Boston # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
