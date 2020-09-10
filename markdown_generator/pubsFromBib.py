@@ -27,7 +27,6 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 bib_dir = os.path.join(os.getcwd(), "publication_bibs")
-print(bib_dir)
 publist = {
     "cdc2019": {
         "file" : os.path.join(bib_dir, "cdc2019.bib"),
@@ -44,7 +43,8 @@ publist = {
         "venuekey": "proceeding",
         "venue-pretext": "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publication/"},
+        "pdf_name" : "chamon_cdc2020.pdf"
         
     },
 
@@ -53,9 +53,10 @@ publist = {
         "venuekey": "journal",
         "venue-pretext": "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publication/"},
+        "pdf_name": "chamon_tac2019.pdf"
         
-    },
+    }
     # "journal":{
     #     "file": "pubs.bib",
     #     "venuekey" : "journal",
@@ -115,7 +116,7 @@ for pubsource in publist:
             url_slug = url_slug.replace("--","-")
 
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = b["pdf_name"]#(str(pub_date) + "-" + url_slug).replace("--","-")
+            html_filename = publist[pubsource]["pdf_name"]
 
             #Build Citation from text
             citation = ""
