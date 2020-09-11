@@ -80,7 +80,6 @@ def html_escape(text):
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
-
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
         #reset default date
@@ -180,4 +179,4 @@ for pubsource in publist:
         # field may not exist for a reference
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
-            continue
+            # continue
