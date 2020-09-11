@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Electrical Engineering and Computer Science, Massachusetts Institute of Technology, (2020- present)
+* M.S.E in Robotics, University of Pennsylvania, (2016-2020)
+* B.S.E. in Electrical Engineering and Mathematics, University of Pennsylvania, (2016-2020)
 
 Work experience
 ======

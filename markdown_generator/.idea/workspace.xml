@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6f0f3-2ed9-4761-a5ba-d39571243a95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../_publications/2019-01-01-Matroid-Constrained-Approximately-Supermodular-Optimization-for-Near-Optimal-Actuator-Scheduling.md" beforeDir="false" afterPath="$PROJECT_DIR$/../_publications/2019-01-01-Matroid-Constrained-Approximately-Supermodular-Optimization-for-Near-Optimal-Actuator-Scheduling.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_publications/2020-01-01-Approximately-Supermodular-Scheduling-Subject-to-Matroid-Constraints.md" beforeDir="false" afterPath="$PROJECT_DIR$/../_publications/2020-01-01-Approximately-Supermodular-Scheduling-Subject-to-Matroid-Constraints.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_publications/2020-01-01-Resilient-Control-Compromising-to-Adapt.md" beforeDir="false" afterPath="$PROJECT_DIR$/../_publications/2020-01-01-Resilient-Control-Compromising-to-Adapt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubsFromBib.py" beforeDir="false" afterPath="$PROJECT_DIR$/pubsFromBib.py" afterDir="false" />
     </list>
@@ -16,6 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="JupyterTrust" id="5637acf8-8d00-4434-9387-2dcf19635100" />
   <component name="ProjectId" id="1hLLskUynb94DsSEw52GGIi4dKa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599785634271</updated>
-      <workItem from="1599785636068" duration="1483000" />
+      <workItem from="1599785636068" duration="2457000" />
     </task>
     <servers />
   </component>

@@ -41,7 +41,7 @@ publist = {
         "file" : os.path.join(bib_dir, "resilience2020.bib"),
         "venuekey": "booktitle",
         "venue-pretext": "",
-        "collection" : {"name":"publications",
+        "collection" : {"name": "publications",
                         "permalink":"/publication/"},
         "url" : "chamon_cdc2020"
         
