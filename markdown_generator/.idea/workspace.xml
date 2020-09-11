@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9af6f0f3-2ed9-4761-a5ba-d39571243a95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/../_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubsFromBib.py" beforeDir="false" afterPath="$PROJECT_DIR$/pubsFromBib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_pages/teaching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication_bibs/matroid_tac2019.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publication_bibs/matroid_tac2019.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599785634271</updated>
-      <workItem from="1599785636068" duration="3139000" />
+      <workItem from="1599785636068" duration="3757000" />
     </task>
     <servers />
   </component>
