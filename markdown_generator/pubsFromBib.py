@@ -30,21 +30,21 @@ bib_dir = os.path.join(os.getcwd(), "publication_bibs")
 publist = {
     "cdc2019": {
         "file" : os.path.join(bib_dir, "cdc2019.bib"),
-        "venuekey": "proceeding",
+        "venuekey": "booktitle",
         "venue-pretext": "the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"},
-        "pdf_name" : "chamon_cdc2019a.pdf"
+        "pdf_name" : "chamon_cdc2019a"
         
     },
 
     "cdc2020": {
         "file" : os.path.join(bib_dir, "resilience2020.bib"),
-        "venuekey": "proceeding",
+        "venuekey": "booktitle",
         "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"},
-        "pdf_name" : "chamon_cdc2020.pdf"
+        "pdf_name" : "chamon_cdc2020"
         
     },
 
@@ -54,7 +54,7 @@ publist = {
         "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"},
-        "pdf_name": "chamon_tac2019.pdf"
+        "pdf_name": "chamon_tac2019"
         
     }
     # "journal":{
@@ -111,11 +111,11 @@ for pubsource in publist:
             #strip out {} as needed (some bibtex entries that maintain formatting)
             clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
 
-            url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-            url_slug = url_slug.replace("--","-")
+            url_slug = publist[pubsource]["pdf_name"]#re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
+            # url_slug = url_slug.replace("--","-")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = publist[pubsource]["pdf_name"]
+            md_filename = (url_slug + ".md").replace("--","-")#(str(pub_date) + "-" + url_slug + ".md").replace("--","-")
+            html_filename = (url_slug + ".pdf").replace("--","-")
 
             #Build Citation from text
             citation = ""
@@ -179,4 +179,4 @@ for pubsource in publist:
         # field may not exist for a reference
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
-            # continue
+            continue
