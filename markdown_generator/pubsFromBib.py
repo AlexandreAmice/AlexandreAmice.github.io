@@ -24,7 +24,6 @@ import html
 import os
 import re
 
-
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 bib_dir = os.path.join(os.getcwd(), "publication_bibs")
 publist = {
@@ -34,7 +33,7 @@ publist = {
         "venue-pretext": "the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"},
-        "pdf_name" : "chamon_cdc2019a"
+        "url" : "chamon_cdc2019a"
         
     },
 
@@ -44,7 +43,7 @@ publist = {
         "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"},
-        "pdf_name" : "chamon_cdc2020"
+        "url" : "chamon_cdc2020"
         
     },
 
@@ -54,16 +53,9 @@ publist = {
         "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"},
-        "pdf_name": "chamon_tac2019"
+        "url": "chamon_tac2019"
         
     }
-    # "journal":{
-    #     "file": "pubs.bib",
-    #     "venuekey" : "journal",
-    #     "venue-pretext" : "",
-    #     "collection" : {"name":"publications",
-    #                     "permalink":"/publication/"}
-    # } 
 }
 
 html_escape_table = {
@@ -80,6 +72,7 @@ def html_escape(text):
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
+
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
         #reset default date
@@ -111,11 +104,11 @@ for pubsource in publist:
             #strip out {} as needed (some bibtex entries that maintain formatting)
             clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
 
-            url_slug = publist[pubsource]["pdf_name"]#re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-            # url_slug = url_slug.replace("--","-")
+            url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
+            url_slug = url_slug.replace("--","-")
 
-            md_filename = (url_slug + ".md").replace("--","-")#(str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (url_slug + ".pdf").replace("--","-")
+            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
+            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
 
             #Build Citation from text
             citation = ""
@@ -156,6 +149,7 @@ for pubsource in publist:
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
+
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
