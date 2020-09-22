@@ -1,9 +1,9 @@
 ---
-title: "Modern Convex Optimization"
+title: "ESE 605: Modern Convex Optimization"
 collection: teaching
 type: "Graduate Course"
 permalink: /teaching/ese_605spring
-venue: "University of Pennsylvania, Department of Electrical and Systems Engineering"
+venue: "University of Pennsylvania"
 date: 2020-01-20
 ---
 
