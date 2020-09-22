@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6f0f3-2ed9-4761-a5ba-d39571243a95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/../_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_pages/teaching.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication_bibs/matroid_tac2019.bib" beforeDir="false" afterPath="$PROJECT_DIR$/publication_bibs/matroid_tac2019.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_teaching/2014-spring-teaching-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_teaching/2015-spring-teaching-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Test" />
   </component>
   <component name="RunManager">
     <configuration name="pubsFromBib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -66,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599785634271</updated>
-      <workItem from="1599785636068" duration="3757000" />
+      <workItem from="1599785636068" duration="4365000" />
+      <workItem from="1600091314213" duration="26000" />
     </task>
     <servers />
   </component>
@@ -74,38 +75,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="257" key="GridCell.Tab.0.bottom" timestamp="1599789697187">
+    <state x="743" y="278" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599948499333">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599789697187" />
-    <state width="1874" height="257" key="GridCell.Tab.0.center" timestamp="1599789697187">
+    <state x="743" y="278" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599948499333" />
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom" timestamp="1599858995032">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599789697187" />
-    <state width="1874" height="257" key="GridCell.Tab.0.left" timestamp="1599789697187">
+    <state width="1874" height="257" key="GridCell.Tab.0.bottom/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995032" />
+    <state width="1874" height="257" key="GridCell.Tab.0.center" timestamp="1599858995032">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599789697187" />
-    <state width="1874" height="257" key="GridCell.Tab.0.right" timestamp="1599789697187">
+    <state width="1874" height="257" key="GridCell.Tab.0.center/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995032" />
+    <state width="1874" height="257" key="GridCell.Tab.0.left" timestamp="1599858995031">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="257" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599789697187" />
-    <state width="1874" height="318" key="GridCell.Tab.1.bottom" timestamp="1599786053874">
+    <state width="1874" height="257" key="GridCell.Tab.0.left/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995031" />
+    <state width="1874" height="257" key="GridCell.Tab.0.right" timestamp="1599858995032">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.bottom/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599786053874" />
-    <state width="1874" height="318" key="GridCell.Tab.1.center" timestamp="1599786053874">
+    <state width="1874" height="257" key="GridCell.Tab.0.right/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995032" />
+    <state width="1874" height="318" key="GridCell.Tab.1.bottom" timestamp="1599858995023">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.center/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599786053874" />
-    <state width="1874" height="318" key="GridCell.Tab.1.left" timestamp="1599786053874">
+    <state width="1874" height="318" key="GridCell.Tab.1.bottom/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995023" />
+    <state width="1874" height="318" key="GridCell.Tab.1.center" timestamp="1599858995023">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.left/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599786053874" />
-    <state width="1874" height="318" key="GridCell.Tab.1.right" timestamp="1599786053874">
+    <state width="1874" height="318" key="GridCell.Tab.1.center/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995023" />
+    <state width="1874" height="318" key="GridCell.Tab.1.left" timestamp="1599858995023">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state width="1874" height="318" key="GridCell.Tab.1.right/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599786053874" />
+    <state width="1874" height="318" key="GridCell.Tab.1.left/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995023" />
+    <state width="1874" height="318" key="GridCell.Tab.1.right" timestamp="1599858995023">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1874" height="318" key="GridCell.Tab.1.right/0.27.1920.988/1920.0.1920.1080@0.27.1920.988" timestamp="1599858995023" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/markdown_generator$pubsFromBib.coverage" NAME="pubsFromBib Coverage Results" MODIFIED="1599789697172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
