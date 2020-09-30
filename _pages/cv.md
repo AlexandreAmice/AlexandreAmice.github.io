@@ -6,12 +6,14 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+<!-- <embed src="files/Brochure.pdf" type="application/pdf" width="100%" height="600px" /> -->
+<embed src="http://alexandreamice.github.io/files/Amice_CV.pdf" type="application/pdf" width="80%" height="80%">
+<!-- <body style ="width:100%; height=100%;margin:0;">
 
-<body style ="width:100%; height=100%;margin:0;">
   <iframe src="http://alexandreamice.github.io/files/Amice_CV.pdf" style="width:100%; height=100%;margin:0;"> 
   </iframe>
-</body> 
-
+</body>  -->
+<!-- 
 {% include base_path %}
 
 Education
@@ -55,14 +57,14 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Talks
+Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
    -->
    
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
@@ -72,4 +74,4 @@ Service and leadership
 ======
 * Hack MIT Beginner Mentor
 * MIT Graduate Application Assistance Program
-* University of Pennsylvania ESE Graduate Application Assistance Program
+* University of Pennsylvania ESE Graduate Application Assistance Program -->
