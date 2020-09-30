@@ -7,6 +7,11 @@ redirect_from:
   - /resume
 ---
 
+<body style ="width:100%; height=100%;margin:0;">
+  <iframe src="http://alexandreamice.github.io/files/Amice_CV.pdf" style="width:100%; height=100%;margin:0;"> 
+  </iframe>
+</body> 
+
 {% include base_path %}
 
 Education
