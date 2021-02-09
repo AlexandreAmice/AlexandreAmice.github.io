@@ -19,7 +19,7 @@ My research seeks to exploit common structures found in complex cyber-physical s
 
 Background
 ======
-Prior to coming to MIT, I spent four wonderful years at the University of Pennsylvania where I completed my Bachelors in Electrial Engineering and Mathematics as well as my Masters in Robotics in 2020. While there, I wrote my Master's Thesis under the supervision of [Professor Alejandro Ribeiro](https://alelab.seas.upenn.edu/alejandro-ribeiro/) and completed my Senior Design Capstone under [Professor Manfred Morari](https://www.seas.upenn.edu/directory/profile.php?ID=213). During the summer of 2019, I worked as a perception engineer at Uber ATG, improving the sensor fusion algorithms of the autonomous vehicle's on board radar system.
+Prior to coming to MIT, I spent four wonderful years at the University of Pennsylvania where I completed my Bachelors in Electrial Engineering and Mathematics as well as my Masters in Robotics in 2020. While there, I wrote my Master's Thesis under the supervision of [Professor Alejandro Ribeiro](https://alelab.seas.upenn.edu/alejandro-ribeiro/) and completed my Senior Design Capstone under [Professor Manfred Morari](https://www.seas.upenn.edu/directory/profile.php?ID=213). During the summer of 2019, I worked as a perception engineering intern at Uber ATG, improving the sensor fusion algorithms of the autonomous vehicle's on board radar system.
 
 Non-Professional Interests
 =======

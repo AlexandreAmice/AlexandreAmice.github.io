@@ -7,6 +7,7 @@ redirect_from:
   - /resume
 ---
 <!-- <embed src="files/Brochure.pdf" type="application/pdf" width="100%" height="600px" /> -->
+If the CV is not displaying please click <a href="https://alexandreamice.github.io/files/Amice_CV.pdf">here</a>
 <embed src="https://alexandreamice.github.io/files/Amice_CV.pdf" type="application/pdf" width="80%" height="80%">
 <!-- <body style ="width:100%; height=100%;margin:0;">
 
