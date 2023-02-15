@@ -9,7 +9,27 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Certified Polyhedral Decompositions of Collision-Free Configuration Space</title><link>https://alexandreamice.github.io/publication/dai-2023-certified/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/dai-2023-certified/</guid><description/></item><item><title>Discrete Approximate Information States in Partially Observable Environments</title><link>https://alexandreamice.github.io/publication/yang-2022-discrete/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/yang-2022-discrete/</guid><description/></item><item><title>Finding and Optimizing Certified, Collision-Free Regions in Configuration Space for Robot Manipulators</title><link>https://alexandreamice.github.io/publication/amice-2022-finding/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-finding/</guid><description/></item><item><title>Solving Least Squares Problems on Partially Ordered Sets</title><link>https://alexandreamice.github.io/publication/amice-2022-poset/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-poset/</guid><description/></item><item><title>6.S098, IAP 2022 -- Applied Convex Optimization</title><link>https://alexandreamice.github.io/teaching/convex_optimization/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/teaching/convex_optimization/</guid><description>&lt;!-- ---
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Certified Polyhedral Descriptions of Configuration Space</title><link>https://alexandreamice.github.io/project/c-iris/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris/</guid><description>&lt;p>Understanding the geometry of collision-free configuration space (C-free) in the presence of task-space obstacles is an essential ingredient for collision-free motion planning. While it is possible to check for collisions at a point using standard algorithms, to date no practical method exists for computing C-free &lt;em>regions&lt;/em> with rigorous certificates due to the complexity of mapping task-space obstacles through the kinematics. In this work, we present the first to our knowledge rigorous method for approximately decomposing a rational parametrization of C-free into certified polyhedral regions. Our method, called C-IRIS (C-space Iterative Regional Inflation by Semidefinite programming), generates large, convex polytopes in a rational parameterization of the configuration space which are rigorously certified to be collision-free. Such regions have been shown to be useful for both optimization-based and randomized motion planning. Based on convex optimization, our method works in arbitrary dimensions, only makes assumptions about the convexity of the obstacles in the &lt;em>task&lt;/em> space, and is fast enough to scale to realistic problems in manipulation. We demonstrate our algorithm&amp;rsquo;s ability to fill a non-trivial amount of collision-free C-space in several 2-DOF examples where the C-space can be visualized, as well as the scalability of our algorithm on a 7-DOF KUKA iiwa, a 6-DOF UR3e and 12-DOF bimanual manipulators. An implementation of our algorithm is open-sourced in &lt;a href="https://github.com/RobotLocomotion/drake" target="_blank" rel="noopener">Drake&lt;/a>.&lt;/p>
+&lt;iframe
+src="pinball_growth.html"
+width="100%"
+height="500"
+frameborder="1"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+name="pinball_trajectory"
+&lt;/iframe>
+&lt;p>&lt;center>&lt;a href="pinball_growth.html" target="pinball_growth">View this animation in full screen&lt;/a>&lt;/center>&lt;/p>
+&lt;iframe
+width="100%"
+height="500"
+src="pinball_trajectory.html"
+frameborder="1"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+name="pinball_trajectory"
+&lt;/iframe>
+&lt;p>&lt;center>&lt;a href="pinball_trajectory.html" target="pinball_trajectory">View this animation in full screen&lt;/a>&lt;/center>&lt;/p></description></item><item><title>Certified Polyhedral Decompositions of Collision-Free Configuration Space</title><link>https://alexandreamice.github.io/publication/dai-2023-certified/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/dai-2023-certified/</guid><description/></item><item><title>Structured Optimization</title><link>https://alexandreamice.github.io/project/poset_least_squares/</link><pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/poset_least_squares/</guid><description>&lt;p>WORK IN PROGRESS&lt;/p></description></item><item><title>Discrete Approximate Information States in Partially Observable Environments</title><link>https://alexandreamice.github.io/publication/yang-2022-discrete/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/yang-2022-discrete/</guid><description/></item><item><title>Finding and Optimizing Certified, Collision-Free Regions in Configuration Space for Robot Manipulators</title><link>https://alexandreamice.github.io/publication/amice-2022-finding/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-finding/</guid><description/></item><item><title>Solving Least Squares Problems on Partially Ordered Sets</title><link>https://alexandreamice.github.io/publication/amice-2022-poset/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-poset/</guid><description/></item><item><title>6.S098, IAP 2022 -- Applied Convex Optimization</title><link>https://alexandreamice.github.io/teaching/convex_optimization/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/teaching/convex_optimization/</guid><description>&lt;!-- ---
 layout: archive
 title: "6.S098, IAP 2022 -- Applied Convex Optimization"
 permalink: /courses/6.S098/
@@ -124,7 +144,7 @@ Total | 22&lt;/p></description></item><item><title>Approximately supermodular sc
 &lt;p>&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener">Choose a stunning &lt;strong>theme&lt;/strong> and &lt;strong>font&lt;/strong>&lt;/a> for your site. Themes are fully customizable.&lt;/p>
 &lt;h2 id="license">License&lt;/h2>
 &lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Resilient control: Compromising to adapt</title><link>https://alexandreamice.github.io/publication/chamon-2020-resilient/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/chamon-2020-resilient/</guid><description/></item><item><title>Writing technical content in Markdown</title><link>https://alexandreamice.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/post/writing-technical-content/</guid><description>&lt;p>Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p>
+&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Resilient Behavior Through Optimization</title><link>https://alexandreamice.github.io/project/constraint_relax/</link><pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/constraint_relax/</guid><description>&lt;p>WORK IN PROGRESS&lt;/p></description></item><item><title>Resilient control: Compromising to adapt</title><link>https://alexandreamice.github.io/publication/chamon-2020-resilient/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/chamon-2020-resilient/</guid><description/></item><item><title>Scheduling with Constraints</title><link>https://alexandreamice.github.io/project/matroid/</link><pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/matroid/</guid><description>&lt;p>WORK IN PROGRESS&lt;/p></description></item><item><title>Writing technical content in Markdown</title><link>https://alexandreamice.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/post/writing-technical-content/</guid><description>&lt;p>Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p>
 &lt;p>&lt;strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong>&lt;/p>
 &lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p>
 &lt;h2 id="examples">Examples&lt;/h2>
@@ -215,7 +235,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-876291453" class="chart">&lt;/div>
+&lt;div id="chart-617354298" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -224,7 +244,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-876291453', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-617354298', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -583,25 +603,4 @@ data-background-image="/media/boards.jpg"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
 &lt;h1 id="questions">Questions?&lt;/h1>
 &lt;p>&lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Matroid-constrained approximately supermodular optimization for near-optimal actuator scheduling</title><link>https://alexandreamice.github.io/publication/chamon-2019-matroid/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/chamon-2019-matroid/</guid><description/></item><item><title>Certified Polyhedral Descriptions of Configuration Space</title><link>https://alexandreamice.github.io/project/c-iris/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris/</guid><description>&lt;p>Understanding the geometry of collision-free configuration space (C-free) in the presence of task-space obstacles is an essential ingredient for collision-free motion planning. While it is possible to check for collisions at a point using standard algorithms, to date no practical method exists for computing C-free &lt;em>regions&lt;/em> with rigorous certificates due to the complexity of mapping task-space obstacles through the kinematics. In this work, we present the first to our knowledge rigorous method for approximately decomposing a rational parametrization of C-free into certified polyhedral regions. Our method, called C-IRIS (C-space Iterative Regional Inflation by Semidefinite programming), generates large, convex polytopes in a rational parameterization of the configuration space which are rigorously certified to be collision-free. Such regions have been shown to be useful for both optimization-based and randomized motion planning. Based on convex optimization, our method works in arbitrary dimensions, only makes assumptions about the convexity of the obstacles in the &lt;em>task&lt;/em> space, and is fast enough to scale to realistic problems in manipulation. We demonstrate our algorithm&amp;rsquo;s ability to fill a non-trivial amount of collision-free C-space in several 2-DOF examples where the C-space can be visualized, as well as the scalability of our algorithm on a 7-DOF KUKA iiwa, a 6-DOF UR3e and 12-DOF bimanual manipulators. An implementation of our algorithm is open-sourced in &lt;a href="https://github.com/RobotLocomotion/drake" target="_blank" rel="noopener">Drake&lt;/a>.&lt;/p>
-&lt;h1 id="read-the-papers">Read the papers&lt;/h1>
-&lt;iframe
-src="pinball_growth.html"
-width="100%"
-height="500"
-frameborder="1"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-name="pinball_trajectory"
-&lt;/iframe>
-&lt;p>&lt;center>&lt;a href="pinball_growth.html" target="pinball_growth">View this animation in full screen&lt;/a>&lt;/center>&lt;/p>
-&lt;iframe
-width="100%"
-height="500"
-src="pinball_trajectory.html"
-frameborder="1"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-name="pinball_trajectory"
-&lt;/iframe>
-&lt;p>&lt;center>&lt;a href="pinball_trajectory.html" target="pinball_trajectory">View this animation in full screen&lt;/a>&lt;/center>&lt;/p></description></item><item><title/><link>https://alexandreamice.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/admin/config.yml</guid><description/></item></channel></rss>
+&lt;p>&lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Matroid-constrained approximately supermodular optimization for near-optimal actuator scheduling</title><link>https://alexandreamice.github.io/publication/chamon-2019-matroid/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/chamon-2019-matroid/</guid><description/></item><item><title/><link>https://alexandreamice.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/admin/config.yml</guid><description/></item></channel></rss>
