@@ -1,5 +1,5 @@
 [build]
-  command = """
+command = """
     set -e
     echo "=== Starting Blog build process ==="
     echo "Node version: $(node --version)"
@@ -18,25 +18,25 @@
     
     echo "=== Build completed successfully ==="
   """
-  publish = "public"
+publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.154.3"
-  GO_VERSION = "1.21.5"
-  NODE_VERSION = "22"
-  # Netlify runs an implicit install step; ensure it never enforces frozen lockfiles
-  PNPM_FLAGS = "--no-frozen-lockfile"
-  HUGO_ENABLEGITINFO = "true"
-  HUGO_LOG_I18N_WARNINGS = "true"
-  HUGO_LOG_WARNINGS = "true"
-  FORCE_COLOR = "1"
-  PNPM_LOG_LEVEL = "debug"
+HUGO_VERSION = "0.154.3"
+GO_VERSION = "1.21.5"
+NODE_VERSION = "22"
+# Netlify runs an implicit install step; ensure it never enforces frozen lockfiles
+PNPM_FLAGS = "--no-frozen-lockfile"
+HUGO_ENABLEGITINFO = "true"
+HUGO_LOG_I18N_WARNINGS = "true"
+HUGO_LOG_WARNINGS = "true"
+FORCE_COLOR = "1"
+PNPM_LOG_LEVEL = "debug"
 
 [context.production.environment]
-  HUGO_ENV = "production"
+HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = """
+command = """
     set -e
     echo "=== Deploy Preview Build ==="
     echo "Deploy URL: $DEPLOY_PRIME_URL"
@@ -46,7 +46,7 @@
   """
 
 [context.branch-deploy]
-  command = """
+command = """
     set -e
     echo "=== Branch Deploy Build ==="
     echo "Deploy URL: $DEPLOY_PRIME_URL"
@@ -56,6 +56,6 @@
   """
 
 [[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+package = "netlify-plugin-hugo-cache-resources"
+[plugins.inputs]
+debug = true

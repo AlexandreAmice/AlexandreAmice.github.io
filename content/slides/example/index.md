@@ -7,7 +7,7 @@ summary: "A quick tour of recent research highlights: multimodal LLMs, efficient
 slides:
   theme: black
   highlight_style: dracula
-  diagram: true  # Enable Mermaid diagrams
+  diagram: true # Enable Mermaid diagrams
   reveal_options:
     controls: true
     progress: true
@@ -16,6 +16,7 @@ slides:
 ---
 
 # Example Talk
+
 ### Dr. Alex Johnson · Meta AI
 
 ---
@@ -50,7 +51,7 @@ $$
 ### Left Column
 
 - Point A
-- Point B  
+- Point B
 - Point C
 
 </div>
@@ -132,6 +133,7 @@ Press **S** to open presenter view with notes!
 This slide has hidden speaker notes below.
 
 Note:
+
 - This is a **speaker note** (only visible in presenter view)
 - Press `S` key to open presenter console
 - Perfect for remembering key talking points
@@ -179,10 +181,10 @@ Mermaid diagrams are created from simple text. They're version-controllable and 
 
 ## Research Results
 
-| Model | Accuracy | Speed | Memory |
-|-------|----------|-------|--------|
-| Baseline | 87.3% | 1.0x | 2GB |
-| Ours (v1) | 92.1% | 1.5x | 1.8GB |
+| Model         | Accuracy  | Speed    | Memory    |
+| ------------- | --------- | -------- | --------- |
+| Baseline      | 87.3%     | 1.0x     | 2GB       |
+| Ours (v1)     | 92.1%     | 1.5x     | 1.8GB     |
 | **Ours (v2)** | **95.8%** | **2.3x** | **1.2GB** |
 
 > **Key Finding:** 8.5% improvement over baseline with 40% memory reduction
@@ -199,6 +201,7 @@ Tables are perfect for comparative results. Markdown tables are simple and versi
 This slide has a **blue background**!
 
 You can customize:
+
 - Background colors
 - Background images
 - Gradients
@@ -242,14 +245,14 @@ Press **Up Arrow** to go back, or **Right Arrow** to continue.
 ## Citations & Quotes
 
 > "The best way to predict the future is to invent it."
-> 
+>
 > — Alan Kay
 
 Or reference research:
 
 > Recent work by Smith et al. (2024) demonstrates that Markdown-based slides improve reproducibility by 78% compared to proprietary formats[^1].
 
-[^1]: Smith, J. et al. (2024). *Open Science Presentations*. Nature Methods.
+[^1]: Smith, J. et al. (2024). _Open Science Presentations_. Nature Methods.
 
 ---
 
@@ -283,7 +286,7 @@ All media types work seamlessly in slides. Just use the appropriate shortcode.
 Try these keyboard shortcuts:
 
 - `→` `←` : Navigate slides
-- `↓` `↑` : Vertical navigation  
+- `↓` `↑` : Vertical navigation
 - `S` : Speaker notes
 - `F` : Fullscreen
 - `O` : Overview mode
@@ -291,12 +294,15 @@ Try these keyboard shortcuts:
 - `ESC` : Exit modes
 
 ---
+
 <!-- hide -->
+
 ## Hidden Slide Demo (Inline Comment)
 
 This slide is hidden using the `<!-- hide -->` comment method.
 
 Perfect for:
+
 - Speaker-only content
 - Backup slides
 - Work-in-progress content

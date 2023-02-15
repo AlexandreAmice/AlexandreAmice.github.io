@@ -42,7 +42,7 @@ Most CVs are static PDFs that get lost in the pile. This is an **intelligent por
 </p>
 
 ![HugoBlox Studio in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
-*HugoBlox Studio: Drag-and-drop page builder inside VS Code.*
+_HugoBlox Studio: Drag-and-drop page builder inside VS Code._
 
 > "My citations went up 3x after switching to this template. The citation auto-sync feature is a lifesaver."
 > — **Dr. Zhang**, AI Research Scientist, Meta
@@ -59,13 +59,13 @@ Most CVs are static PDFs that get lost in the pile. This is an **intelligent por
 
 ## Features
 
-| Feature | Benefit |
-| :--- | :--- |
-| **Markdown, Jupyter, RStudio** | Write in the tools you already use. |
-| **Auto-Update Citations** | Drop in a BibTeX file; formatted lists generated automatically. |
-| **Visual Editor** | Drag-and-drop blocks to build pages in minutes. |
-| **Global CDN** | Blazing fast load times (100/100 Lighthouse scores). |
-| **Privacy First** | You own your data. Host for free on GitHub Pages. |
+| Feature                        | Benefit                                                         |
+| :----------------------------- | :-------------------------------------------------------------- |
+| **Markdown, Jupyter, RStudio** | Write in the tools you already use.                             |
+| **Auto-Update Citations**      | Drop in a BibTeX file; formatted lists generated automatically. |
+| **Visual Editor**              | Drag-and-drop blocks to build pages in minutes.                 |
+| **Global CDN**                 | Blazing fast load times (100/100 Lighthouse scores).            |
+| **Privacy First**              | You own your data. Host for free on GitHub Pages.               |
 
 ---
 
@@ -89,13 +89,13 @@ Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-n
 
 ## Free vs Pro
 
-| Feature | Academic CV (Free) | Academic CV Pro & Resumé Pro |
-| --- | --- | --- |
-| Design | Professional & clean | Premium designs |
-| Layouts | Standard sections | Advanced timelines & layouts |
-| Courses/Lectures | Basic | Fully-Featured |
-| First Impression | Strong | Unforgettable |
-| Discord Support | Community | Priority |
+| Feature          | Academic CV (Free)   | Academic CV Pro & Resumé Pro |
+| ---------------- | -------------------- | ---------------------------- |
+| Design           | Professional & clean | Premium designs              |
+| Layouts          | Standard sections    | Advanced timelines & layouts |
+| Courses/Lectures | Basic                | Fully-Featured               |
+| First Impression | Strong               | Unforgettable                |
+| Discord Support  | Community            | Priority                     |
 
 <p align="center">
   <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>💎 Upgrade to Pro</b></a><br/>
@@ -109,17 +109,20 @@ Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-n
 ## Get Started
 
 ### Option 1: No-Code (Fastest)
+
 Launch a fully hosted site in your browser. No software to install.
 
 👉 [**Launch in Browser (Free)**](https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme)
 
 ### Option 2: Studio (Visual Editor)
-1) Install [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=hugoblox.hugoblox-studio) for VS Code  
-2) Open this project and edit visually
+
+1. Install [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=hugoblox.hugoblox-studio) for VS Code
+2. Open this project and edit visually
 
 ### Option 3: CLI (Developers)
-1) Install [Hugo](https://docs.hugoblox.com/start/cli/)
-2) Create your site with the CLI:
+
+1. Install [Hugo](https://docs.hugoblox.com/start/cli/)
+2. Create your site with the CLI:
 
 ```bash
 npx hugoblox create site --template academic-cv
