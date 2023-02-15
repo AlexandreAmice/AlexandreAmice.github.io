@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teaching | Alexandre Amice</title><link>https://alexandreamice.github.io/teaching/</link><atom:link href="https://alexandreamice.github.io/teaching/index.xml" rel="self" type="application/rss+xml"/><description>Teaching</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://alexandreamice.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url><title>Teaching</title><link>https://alexandreamice.github.io/teaching/</link></image><item><title>6.S098, IAP 2022 -- Applied Convex Optimization</title><link>https://alexandreamice.github.io/teaching/convex_optimization/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/teaching/convex_optimization/</guid><description>&lt;!-- ---
+layout: archive
+title: "6.S098, IAP 2022 -- Applied Convex Optimization"
+permalink: /courses/6.S098/
+author_profile: true
+--- -->
+&lt;p>&lt;strong>Instructors:&lt;/strong> &lt;a href="mailto:amice@mit.edu">Alexandre Amice&lt;/a>, &lt;a href="mailto:blegat@mit.edu">Benoit Legat&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Lectures:&lt;/strong> Tuesday/Thursday 1:00-2:30pm January 4th - January 27th&lt;/p>
+&lt;p>&lt;strong>Syllabus&lt;/strong>: &lt;a href="6.S098_Syllabus.pdf">Syllabus&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Piazza&lt;/strong>: &lt;a href="http://piazza.com/mit/other/6s098" target="_blank" rel="noopener">Piazza&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Lecture Recordings&lt;/strong>: &lt;a href="https://www.youtube.com/playlist?list=PL5SG6ajT9NZKxdvM1jQOLXmeKO7MfyLxR" target="_blank" rel="noopener">Lecture Recordings&lt;/a>&lt;/p>
+&lt;h2 id="course-description">Course description&lt;/h2>
+&lt;p>Optimization is a cornerstone of many disciplines in engineering. Surprisingly, many problems such
+as balancing bipedal robots, designing your own index fund, and allocating power in the energy
+grid can be formulated as convex optimization problems. Convex optimization is a mature technology which can be used to solve a huge number of applied problems and can be scaled to problems
+with millions of variables. However, recognizing what can be transformed into a convex optimization problem can be challenging. This course will teach you how to recognize, formulate, and solve
+these problems.&lt;/p>
+&lt;p>Lectures will be motivated by realistic case studies from areas where convex optimization is used in
+practice. We will briefly survey theoretical results in convex analysis, but the majority of the course
+will focus on formulating and solving problems that come up in practice. Applications will include
+robotics, signal processing, statistics and machine learning, finance, control, power systems, and
+other areas based on student interest. This course is designed for advanced undergraduates and
+beginning graduate students.&lt;/p>
+&lt;h2 id="course-objectives">Course objectives&lt;/h2>
+&lt;ul>
+&lt;li>learn to recognize and formulate convex optimization problems that appear in various fields.&lt;/li>
+&lt;li>become comfortable using open source software to solve these optimization problems.&lt;/li>
+&lt;li>develop insight to decide which solver is best for your problem.&lt;/li>
+&lt;li>give students the background needed to feel comfortable in applying these methods in their own research work and/or applications&lt;/li>
+&lt;/ul>
+&lt;h2 id="about-the-course">About the Course&lt;/h2>
+&lt;h3 id="prerequisites">Prerequisites&lt;/h3>
+&lt;p>Comfort with multivariable calculus (18.02) and linear algebra (18.06) as well as basic programming in Python or Julia. Familiarity with basic probability and/or controls will aid in understanding many of the case studies.&lt;/p>
+&lt;h3 id="intended-audience">Intended audience&lt;/h3>
+&lt;p>Anyone who expects to use optimization as a tool for scientific computing. Beginning graduate and advanced undergraduate students are the particular target audience.&lt;/p>
+&lt;h3 id="schedule">Schedule&lt;/h3>
+&lt;p>The following schedule is tentative and subject to change. See Syllabus for in depth topic list. Homework problems will be drawn primarily from &lt;a href="6.S098_homeworks/boyd_extra_exercises.pdf">Boyd&amp;rsquo;s Extra Exercises&lt;/a>.&lt;/p>
+&lt;p>| Date | Topic | Homework |
+Week 1 01/04, 01/06 | Linear Programming, Fundamentals of Convex Programming | &lt;a href="6.S098_homeworks/hwmk1.pdf">Homework 1&lt;/a> |
+Week 2 01/11, 01/13 | Quadratic and Second Order Cone Programming, Duality | &lt;a href="6.S098_homeworks/hwmk2.pdf">Homework 2&lt;/a> |
+Week 3 01/18, 01/20 | Case Study: Machine Learning and Statistics&lt;br /> Case Study: Power Systems and Bender&amp;rsquo;s Decomposition| &lt;a href="6.S098_homeworks/hwmk3.pdf">Homework 3&lt;/a> |
+Week 4 01/25, 01/27| Hard Optimization Problems: TBD | &lt;a href="6.S098_homeworks/final_project_description.pdf">Project&lt;/a> |&lt;/p>
+&lt;h3 id="problem-sets">Problem Sets&lt;/h3>
+&lt;p>There will be three problem sets, assigned on Wednesday and due the subsequent Wednesday. Grading will be very coarse&amp;ndash;emphasis is put on understanding the concepts over correct answers. Problem sets will focus on giving students practice formulating convex optimization problems and obtaining familiarity with solving those programs using open source software.&lt;/p>
+&lt;p>Each problem set will ask you to model and solve convex optimization problems that come from various application areas, which will be chosen based on interests of the class. Problem sets will require use of the Julia or Python programming languages, but no prior experience in either is required. Problem sets are expected to take around 4 hours each.&lt;/p>
+&lt;h3 id="project">Project&lt;/h3>
+&lt;p>There will be a course project during the last week of IAP that will allow you to apply convex optimization to a problem of interest. The final product will be a short mathematical description of this problem (akin to the descriptions you see on the problem sets) and a solution. Course grading is designed such that this project can take the place of the final problem set. Presentation of the results to the class are a possibility.&lt;/p>
+&lt;h3 id="textbook">Textbook&lt;/h3>
+&lt;p>The textbook is Convex Optimization by Boyd and Vandenberghe, available &lt;a href="https://web.stanford.edu/~boyd/cvxbook/" target="_blank" rel="noopener">online&lt;/a>.&lt;/p>
+&lt;h3 id="software">Software&lt;/h3>
+&lt;p>You will use CVX in one of &lt;a href="https://www.cvxpy.org/CVXPY" target="_blank" rel="noopener">Python&lt;/a> or &lt;a href="http://convexjl.readthedocs.org/Convex.jl" target="_blank" rel="noopener">Julia&lt;/a>&lt;/p>
+&lt;h3 id="grading">Grading&lt;/h3>
+&lt;ul>
+&lt;li>This course is offered for 6 units of credit, and the grading is P/D/F. To receive credit, you must get 16 or more points. A minimum of 4 points of attendance and 2 points on the final project are
+required to pass. The main goal of this course is to learn about optimization and solve some fun problems.&lt;/li>
+&lt;/ul>
+&lt;p>Problem Sets | 12 | 4 points per problem set |
+Attendance | 6 | 1 point per lecture in person, 0.75 for remote attendance |
+Project | 4 |
+Total | 22&lt;/p></description></item></channel></rss>

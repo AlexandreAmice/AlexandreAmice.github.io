@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://alexandreamice.github.io/sitemap.xml
