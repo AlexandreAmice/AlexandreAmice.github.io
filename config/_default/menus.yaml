@@ -19,15 +19,12 @@ main:
   - name: Teaching
     url: 'teaching/'
     weight: 40
-  - name: Contact
-    url: '#contact'
-    weight: 60
+    # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+  - name: CV
+    url: uploads/Amice_CV.pdf
+    weight: 70
   - name: '<i class="fab fa-github"; font-size: 1rem; line-height: 1.25"></i>'
     url: 'https://github.com/AlexandreAmice'
-    weight: 70
+    weight: 80
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+
