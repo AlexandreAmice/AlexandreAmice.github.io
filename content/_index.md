@@ -138,4 +138,12 @@ sections:
         folders:
           - publication
         exclude_featured: False
+
+  - block: markdown
+    content:
+      title: Contact Me
+      subtitle: "[amice@mit.edu](mailto:amice@mit.edu)"
+
 ---
+
+
