@@ -2,7 +2,7 @@
 title: Scheduling with Constraints
 summary: Guaranteed performance for heuristic strategies for a known, hard problem.
 tags:
-  - Poset_Least_Squares
+  - Matroid
 date: '2019-12-29T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -25,4 +25,4 @@ url_video: ''
 # PDF: example
 ---
 
-WORK IN PROGRESS
+This project is completed but this page is a work in progress.

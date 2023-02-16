@@ -25,4 +25,4 @@ url_video: ''
 # PDF: example
 ---
 
-WORK IN PROGRESS
+This project is a complete but this page is a work in progress
