@@ -95,7 +95,7 @@ sections:
           description: Research in optimization methods for the control and verification of complex dynamical. systems.
 
         - title: Open Source Developer
-          company: Drake Robotics Project
+          company: Drake Robotics Toolbox
           company_url: drake.mit.edu
           company_logo: drake-dragon
           location: ''
