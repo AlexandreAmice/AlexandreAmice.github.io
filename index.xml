@@ -14,7 +14,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;p>Most work on the geometry of configuration space seeks to describe the configuration-space obstacle from the task-space description. This approach gives a &amp;ldquo;negative&amp;rdquo; description of C-free, describing it as the complement of this configuration space obstacle.&lt;/p>
 &lt;p>Nonetheless, many optimization-based motion planning frameworks can benefit greatly from a &amp;ldquo;positive&amp;rdquo; description of C-free, where in C-free is described as the union of simpler, often convex, sets. While it is possible to check for collisions at a point using standard algorithms, to date no practical method exists for computing C-free &lt;em>regions&lt;/em> with rigorous certificates due to the complexity of mapping task-space obstacles through the kinematics. Therefore, the current literature provides no method for providing a positive description of C-free for these motion planning methods.&lt;/p>
 &lt;h1 id="contribution">Contribution&lt;/h1>
-&lt;p>In this work, we provide a method for describing C-free using convex polyhedra in a bijective, rational parametrization of C-space known as the tangent configuration space (TC-space). Our primary technical contributions are two convex (specifically Sums-of-Squares (SOS)) programs which can certify that a polyhedron in TC-space contains no collision when the obstacles are specified as convex sets in &lt;em>task space&lt;/em>. Similar to &lt;a href="https://groups.csail.mit.edu/robotics-center/public_papers/Deits14.pdf" target="_blank" rel="noopener">(Deits et al. 2014)&lt;/a>, we then construct certified, collision-free polytopic regions by alternating between a pair of convex programs. Our method works in arbitrary dimensions and is the first to our knowledge to provide rigorous certificates for non-zero volume sets in this setting. Moreover, we provide a fast, mature implementation technique in the open-source robotics toolbox &lt;a href="https://github.com/RobotLocomotion/drake" target="_blank" rel="noopener">Drake&lt;/a>.&lt;/p>
+&lt;p>In this work, we provide a method for describing C-free using convex polyhedra in a bijective, rational parametrization of C-space known as the tangent configuration space (TC-space). Our primary technical contributions are two convex (specifically Sums-of-Squares (SOS)) programs which can certify that a polyhedron in TC-space contains no collision when the obstacles are specified as convex sets in &lt;em>task space&lt;/em>. Similar to &lt;a href="https://groups.csail.mit.edu/robotics-center/public_papers/Deits14.pdf" target="_blank" rel="noopener">(Deits et al. 2014)&lt;/a>, we then construct certified, collision-free polytopic regions by alternating between a pair of convex programs. Our method works in arbitrary dimensions and is the first to our knowledge to provide rigorous certificates for non-zero volume sets in this setting. Moreover, we provide a fast, mature implementation of our technique in the open-source robotics toolbox &lt;a href="https://github.com/RobotLocomotion/drake" target="_blank" rel="noopener">Drake&lt;/a>.&lt;/p>
 &lt;h1 id="results">Results&lt;/h1>
 &lt;p>We run our method on robots of varying complexity. Visit &lt;a href="https://deepnote.com/workspace/alexandre-amice-c018b305-0386-4703-9474-01b867e6efea/project/C-IRIS-7e82e4f5-f47a-475a-aad3-c88093ed36c6/notebook/2d_example_bilinear_alternation-14f1ee8c795e499ca7f577b6885c10e9" target="_blank" rel="noopener">this link&lt;/a> to play with a variety of these examples yourself!&lt;/p>
 &lt;h2 id="a-two-dimensional-example">A Two Dimensional Example&lt;/h2>
@@ -257,7 +257,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-528671349" class="chart">&lt;/div>
+&lt;div id="chart-489756213" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -266,7 +266,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-528671349', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-489756213', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
