@@ -16,7 +16,7 @@ links:
     icon_pack: custom
     name: Interactive Python Notebooks
     url: https://deepnote.com/workspace/alexandre-amice-c018b305-0386-4703-9474-01b867e6efea/project/C-IRIS-7e82e4f5-f47a-475a-aad3-c88093ed36c6/notebook/2d_example_bilinear_alternation-14f1ee8c795e499ca7f577b6885c10e9
-url_code: 'https://github.com/AlexandreAmice/drake/tree/C_Iris_Wafr_Journal_Examples'
+url_code: 'https://github.com/AlexandreAmice/drake/tree/C_Iris_Wafr_Journal_Examples/C_Iris_Examples'
 url_pdf: ''
 url_slides: ''
 url_video: ''
