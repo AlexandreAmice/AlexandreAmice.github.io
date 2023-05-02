@@ -1,6 +1,6 @@
 ---
 title: Resilient Behavior Through Optimization
-summary: Resiliency of control cystems and learning algorithms via counter-factual optimization
+summary: Resiliency of control systems and learning algorithms via counter-factual optimization
 tags:
   - Constraint_Relax
 date: '2020-05-27T00:00:00Z'
