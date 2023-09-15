@@ -40,4 +40,5 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 name="pinball_trajectory"
 &lt;/iframe>
-&lt;p>&lt;center>&lt;a href="ur_single.html" target="ur_single">View this animation in full screen&lt;/a>&lt;/center>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;center>&lt;a href="ur_single.html" target="ur_single">View this animation in full screen&lt;/a>&lt;/center>&lt;/p></description></item><item><title>Certifying Trajectories in Seconds</title><link>https://alexandreamice.github.io/project/c-iris-path/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris-path/</guid><description>&lt;h1 id="motivation">Motivation&lt;/h1>
+&lt;p>TODO FILL&lt;/p></description></item></channel></rss>

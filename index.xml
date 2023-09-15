@@ -51,7 +51,8 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 name="pinball_trajectory"
 &lt;/iframe>
-&lt;p>&lt;center>&lt;a href="ur_single.html" target="ur_single">View this animation in full screen&lt;/a>&lt;/center>&lt;/p></description></item><item><title>Certified Polyhedral Decompositions of Collision-Free Configuration Space</title><link>https://alexandreamice.github.io/publication/dai-2023-certified/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/dai-2023-certified/</guid><description/></item><item><title>Structured Optimization</title><link>https://alexandreamice.github.io/project/poset_least_squares/</link><pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/poset_least_squares/</guid><description>&lt;p>WORK IN PROGRESS&lt;/p></description></item><item><title>Discrete Approximate Information States in Partially Observable Environments</title><link>https://alexandreamice.github.io/publication/yang-2022-discrete/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/yang-2022-discrete/</guid><description/></item><item><title>Finding and Optimizing Certified, Collision-Free Regions in Configuration Space for Robot Manipulators</title><link>https://alexandreamice.github.io/publication/amice-2022-finding/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-finding/</guid><description/></item><item><title>Solving Least Squares Problems on Partially Ordered Sets</title><link>https://alexandreamice.github.io/publication/amice-2022-poset/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-poset/</guid><description/></item><item><title>6.S098, IAP 2022 -- Applied Convex Optimization</title><link>https://alexandreamice.github.io/teaching/convex_optimization/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/teaching/convex_optimization/</guid><description>&lt;!-- ---
+&lt;p>&lt;center>&lt;a href="ur_single.html" target="ur_single">View this animation in full screen&lt;/a>&lt;/center>&lt;/p></description></item><item><title>Certifying Trajectories in Seconds</title><link>https://alexandreamice.github.io/project/c-iris-path/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris-path/</guid><description>&lt;h1 id="motivation">Motivation&lt;/h1>
+&lt;p>TODO FILL&lt;/p></description></item><item><title>Certified Polyhedral Decompositions of Collision-Free Configuration Space</title><link>https://alexandreamice.github.io/publication/dai-2023-certified/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/dai-2023-certified/</guid><description/></item><item><title>Structured Optimization</title><link>https://alexandreamice.github.io/project/poset_least_squares/</link><pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/poset_least_squares/</guid><description>&lt;p>WORK IN PROGRESS&lt;/p></description></item><item><title>Discrete Approximate Information States in Partially Observable Environments</title><link>https://alexandreamice.github.io/publication/yang-2022-discrete/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/yang-2022-discrete/</guid><description/></item><item><title>Finding and Optimizing Certified, Collision-Free Regions in Configuration Space for Robot Manipulators</title><link>https://alexandreamice.github.io/publication/amice-2022-finding/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-finding/</guid><description/></item><item><title>Solving Least Squares Problems on Partially Ordered Sets</title><link>https://alexandreamice.github.io/publication/amice-2022-poset/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/publication/amice-2022-poset/</guid><description/></item><item><title>6.S098, IAP 2022 -- Applied Convex Optimization</title><link>https://alexandreamice.github.io/teaching/convex_optimization/</link><pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/teaching/convex_optimization/</guid><description>&lt;!-- ---
 layout: archive
 title: "6.S098, IAP 2022 -- Applied Convex Optimization"
 permalink: /courses/6.S098/
@@ -257,7 +258,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-164732958" class="chart">&lt;/div>
+&lt;div id="chart-135478692" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -266,7 +267,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-164732958', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-135478692', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
