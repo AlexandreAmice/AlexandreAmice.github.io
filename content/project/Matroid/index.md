@@ -1,6 +1,6 @@
 ---
 title: Scheduling with Constraints
-summary: Guaranteed performance for heuristic strategies for a known, hard problem.
+summary: Guaranteed performance of heuristic strategies for a known, hard problem.
 tags:
   - Matroid
 date: '2019-12-29T00:00:00Z'
