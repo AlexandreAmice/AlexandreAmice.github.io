@@ -3,7 +3,7 @@ title: Certifying Trajectories in Seconds
 summary: TODO
 tags:
   - Geometry
-date: '2023-02-12T00:00:00Z'
+date: '2023-10-02T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -30,5 +30,14 @@ bilbiography: references.bib
 #   Otherwise, set `slides = ""`.
 # PDF: example
 ---
-# Motivation
-TODO FILL
+# Visualizing the Certificates
+<iframe 
+  width="100%"
+  height="500"
+  src="14dof_hyperplanes.html"
+  frameborder="1"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+  name="14dof_hyperplanes"
+</iframe>
+<p><center><a href="14dof_hyperplanes.html" target="14dof_hyperplanes">View and interact with this animation in full screen</a></center></p>
