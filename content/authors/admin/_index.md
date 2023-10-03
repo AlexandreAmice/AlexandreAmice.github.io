@@ -69,5 +69,5 @@ email: 'amice@mit.edu'
 highlight_name: true
 ---
 
-I am a third year PhD student in MIT's EECS Department advised by [Professor Pablo Parrilo](https://www.mit.edu/~parrilo/) and [Professor Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html). I am broadly interested in optimal and efficient decision making, especially for large scale or complex dynamical systems. I am particularly interested in exploiting polynomial and graph structure to obtain tractable algorithms for problems in control theory and certification. In addition to my research, I am an active contributor to [Drake](https://drake.mit.edu/), an open-source simulator for model-based design and control of robots.
+I am a fourth year PhD student in MIT's EECS Department advised by [Professor Pablo Parrilo](https://www.mit.edu/~parrilo/) and [Professor Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html). I am broadly interested in optimal and efficient decision making, especially for large scale or complex dynamical systems. I am particularly interested in exploiting polynomial and graph structure to obtain tractable algorithms for problems in control theory and certification. In addition to my research, I am an active contributor to [Drake](https://drake.mit.edu/), an open-source simulator for model-based design and control of robots.
 {style="text-align: justify;"}
