@@ -9,7 +9,20 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Certifying Trajectories in Seconds</title><link>https://alexandreamice.github.io/project/c-iris-path/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris-path/</guid><description>&lt;h1 id="visualizing-the-certificates">Visualizing the Certificates&lt;/h1>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Certifying Trajectories in Seconds</title><link>https://alexandreamice.github.io/project/c-iris-path/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris-path/</guid><description>&lt;h1 id="this-page-is-under-construction">THIS PAGE IS UNDER CONSTRUCTION&lt;/h1>
+&lt;h1 id="video-summary">Video Summary&lt;/h1>
+&lt;video width="320" height="240" controls>
+&lt;source src="IcraFinalVideo.mp4" type="video/mp4">
+&lt;/video>
+&lt;h1 id="motivation">Motivation&lt;/h1>
+&lt;p>Collision-free motion planning is a fundamental problem in the safe and efficient operation of any robotic system. One of the most important subroutines in collision-free motion planning is collision detection, which has been studied extensively. Algorithms for checking whether a single configuration is collision free are quite mature and can be performed in microseconds on modern hardware.&lt;/p>
+&lt;p>By contrast, algorithms which are capable of certifying non-collision for the infinite family of configurations along a motion plan are less common. Known as dynamic collision checking, this subroutine is performed hundreds to thousands of times in randomized motion planning methods, and so the speed as well as the correctness of these algorithms is central to their adoption. Due to the speed requirement, it is common practice to heuristically perform dynamic collision checking by sampling a finite number of static configurations along the motion plan. Nevertheless, it is widely recognized that this is insufficient for safety critical robots.&lt;/p>
+&lt;p>Current methods for formally checking the safety of robots frequently only apply to piecewise linear motion plans and are either too slow for practical deployment, rely on difficult to acquire parameters, or are too conservative for certifying motion plans in tight spaces.&lt;/p>
+&lt;!-- put the video of the two iiwas with different levels of safety -->
+&lt;h1 id="contribution">Contribution&lt;/h1>
+&lt;p>In this work, we provide a method for certifying that a robot trajectory contains no collisions. The method provides rigorous proofs of non-collision using Sums-of-Squares optimization, can certify piecewise-polyonmial paths of arbitrary degree, and is efficient enough to certify the safety of a bimanual manipulator motion plan in just over a second. Moreover, it is efficient enough to discriminate the safety of two motion plans which differ by only millimeters.&lt;/p>
+&lt;h1 id="visualizing-the-certificates">Visualizing the Certificates&lt;/h1>
+&lt;p>The certificates of non-collision can be visualized as hyperplanes in the task space. Click &amp;ldquo;Open Controls&amp;rdquo; to turn different hyperplanes on and off, replay the animation, and more.&lt;/p>
 &lt;iframe
 width="100%"
 height="500"
@@ -267,7 +280,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-186325749" class="chart">&lt;/div>
+&lt;div id="chart-716298543" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -276,7 +289,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-186325749', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-716298543', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
