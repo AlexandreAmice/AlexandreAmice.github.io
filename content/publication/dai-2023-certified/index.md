@@ -33,7 +33,7 @@ image:
 projects: ["C-IRIS"]
 publishDate: '2023-02-15T20:44:48.538760Z'
 publication_types:
-- '3'
+- '2'
 abstract: Understanding the geometry of collision-free configuration space (C-free)
   in the presence of task-space obstacles is an essential ingredient for collision-free
   motion planning. While it is possible to check for collisions at a point using standard
