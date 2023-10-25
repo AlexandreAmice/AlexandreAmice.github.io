@@ -103,6 +103,15 @@ sections:
           date_end: ''
           description: Contributions to symbolic algebra and mathematical optimization packages.
 
+        - title: Research Intern
+          company: Boston Dynamics AI Institute
+          company_url: ''
+          company_logo: theaiinstitute_logo
+          location: ''
+          date_start: '2023-05-30'
+          date_end: '2023-09-30'
+          description: Research in model-based control of highly dynamical systems.
+
         - title: Masters and Undergraduate Researcher
           company: University of Pennsylvania
           company_url: ''
