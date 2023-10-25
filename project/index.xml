@@ -1,16 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Alexandre Amice</title><link>https://alexandreamice.github.io/project/</link><atom:link href="https://alexandreamice.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://alexandreamice.github.io/media/icon_hu15baccefadde2163b605cbb3f225a5aa_10270_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://alexandreamice.github.io/project/</link></image><item><title>Certifying Trajectories in Seconds</title><link>https://alexandreamice.github.io/project/c-iris-path/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris-path/</guid><description>&lt;h1 id="this-page-is-under-construction">THIS PAGE IS UNDER CONSTRUCTION&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Alexandre Amice</title><link>https://alexandreamice.github.io/project/</link><atom:link href="https://alexandreamice.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://alexandreamice.github.io/media/icon_hu15baccefadde2163b605cbb3f225a5aa_10270_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://alexandreamice.github.io/project/</link></image><item><title>Certifying Trajectories in Seconds</title><link>https://alexandreamice.github.io/project/c-iris-path/</link><pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate><guid>https://alexandreamice.github.io/project/c-iris-path/</guid><description>&lt;h1 id="motivation">Motivation&lt;/h1>
+&lt;p>Collision-free motion planning is a fundamental problem in the safe and efficient operation of any robotic system. One of the most important subroutines in collision-free motion planning is collision detection, which has been studied extensively. Algorithms for checking whether a single configuration is collision free are quite mature and can be performed in microseconds on modern hardware.&lt;/p>
+&lt;p>By contrast, algorithms which are capable of certifying non-collision for the infinite family of configurations along a motion plan are less common. Known as dynamic collision checking, this subroutine is performed hundreds to thousands of times in randomized motion planning methods, and so the speed as well as the correctness of these algorithms is central to their adoption. Due to the speed requirement, it is common practice to heuristically perform dynamic collision checking by sampling a finite number of static configurations along the motion plan. Nevertheless, it is widely recognized that this is insufficient for safety critical robots.&lt;/p>
+&lt;p>Current methods for formally checking the safety of robots frequently only apply to piecewise linear motion plans and are either too slow for practical deployment, rely on difficult to acquire parameters, or are too conservative for certifying motion plans in tight spaces.&lt;/p>
 &lt;h1 id="video-summary">Video Summary&lt;/h1>
 &lt;video width="320" height="240" controls>
 &lt;source src="IcraFinalVideo.mp4" type="video/mp4">
 &lt;/video>
-&lt;h1 id="motivation">Motivation&lt;/h1>
-&lt;p>Collision-free motion planning is a fundamental problem in the safe and efficient operation of any robotic system. One of the most important subroutines in collision-free motion planning is collision detection, which has been studied extensively. Algorithms for checking whether a single configuration is collision free are quite mature and can be performed in microseconds on modern hardware.&lt;/p>
-&lt;p>By contrast, algorithms which are capable of certifying non-collision for the infinite family of configurations along a motion plan are less common. Known as dynamic collision checking, this subroutine is performed hundreds to thousands of times in randomized motion planning methods, and so the speed as well as the correctness of these algorithms is central to their adoption. Due to the speed requirement, it is common practice to heuristically perform dynamic collision checking by sampling a finite number of static configurations along the motion plan. Nevertheless, it is widely recognized that this is insufficient for safety critical robots.&lt;/p>
-&lt;p>Current methods for formally checking the safety of robots frequently only apply to piecewise linear motion plans and are either too slow for practical deployment, rely on difficult to acquire parameters, or are too conservative for certifying motion plans in tight spaces.&lt;/p>
 &lt;!-- put the video of the two iiwas with different levels of safety -->
 &lt;h1 id="contribution">Contribution&lt;/h1>
 &lt;p>In this work, we provide a method for certifying that a robot trajectory contains no collisions. The method provides rigorous proofs of non-collision using Sums-of-Squares optimization, can certify piecewise-polyonmial paths of arbitrary degree, and is efficient enough to certify the safety of a bimanual manipulator motion plan in just over a second. Moreover, it is efficient enough to discriminate the safety of two motion plans which differ by only millimeters.&lt;/p>
-&lt;h1 id="visualizing-the-certificates">Visualizing the Certificates&lt;/h1>
+&lt;h1 id="results">Results&lt;/h1>
+&lt;h2 id="complexity-of-certification">Complexity of Certification&lt;/h2>
+&lt;p>We consider two realistic robotic scenarios and demonstrate that our method is fast enough to serve as a final safety check of a robot motion plan. Our first system is a bimanual manipula&lt;/p>
+&lt;p>The complexity of our method scales in the degree of freedom (DOF) of the robot as well as the degree of the path parametrization. We therefore test our method on piecewise linear motion plans for a high DOF plant, the bimanual manipulator interacting with a shelf and piecewise cubic motion plans for a lower DOF plant.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">Bimanual Plant, Piecewise Linear Motion Plan&lt;/th>
+&lt;th style="text-align:center">Single arm plant, Piecewise Cubic Motion Plan&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/project/c-iris-path/combined_hue2592328cda0476ee0c0f2388045a88c_150506_282c5fda9d6c437895fff837472570dd.webp 400w,
+/project/c-iris-path/combined_hue2592328cda0476ee0c0f2388045a88c_150506_5e930e41e2f9b85c911030a443a2fbe6.webp 760w,
+/project/c-iris-path/combined_hue2592328cda0476ee0c0f2388045a88c_150506_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://alexandreamice.github.io/project/c-iris-path/combined_hue2592328cda0476ee0c0f2388045a88c_150506_282c5fda9d6c437895fff837472570dd.webp"
+width="760"
+height="677"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/td>
+&lt;td style="text-align:center">
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/project/c-iris-path/iiwa_piecewise_poly_path_small_hu523e7925151d23de0dc2836af6ac8103_224701_e6d6b7990fee98e1a72f90ebb7be553d.webp 400w,
+/project/c-iris-path/iiwa_piecewise_poly_path_small_hu523e7925151d23de0dc2836af6ac8103_224701_85185bd515acc63f1f37924fbbfaa461.webp 760w,
+/project/c-iris-path/iiwa_piecewise_poly_path_small_hu523e7925151d23de0dc2836af6ac8103_224701_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://alexandreamice.github.io/project/c-iris-path/iiwa_piecewise_poly_path_small_hu523e7925151d23de0dc2836af6ac8103_224701_e6d6b7990fee98e1a72f90ebb7be553d.webp"
+width="760"
+height="728"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">Total solver time to certify motion plan: 1.211 sec&lt;/td>
+&lt;td style="text-align:center">Total solver time to certify motion plan: 8.99 sec&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="visualizing-the-certificates">Visualizing the Certificates&lt;/h2>
 &lt;p>The certificates of non-collision can be visualized as hyperplanes in the task space. Click &amp;ldquo;Open Controls&amp;rdquo; to turn different hyperplanes on and off, replay the animation, and more.&lt;/p>
 &lt;iframe
 width="100%"
