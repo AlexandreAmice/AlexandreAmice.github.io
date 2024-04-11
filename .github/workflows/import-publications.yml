@@ -9,8 +9,8 @@ permissions:
 # Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
   push:
-    branches: ['main']
-    paths: ['publications.bib']
+    branches: ["main"]
+    paths: ["publications.bib"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,8 +27,8 @@ jobs:
     timeout-minutes: 10
 
     env:
-      ACADEMIC_VERSION: '>=0.10.0'
-      PYTHON_VERSION: '3.12'
+      ACADEMIC_VERSION: ">=0.10.0"
+      PYTHON_VERSION: "3.12"
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v4
@@ -39,7 +39,7 @@ jobs:
       - name: Set up Python 3.13
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
       - name: Setup pip cache
         uses: actions/cache@v4
         with:
@@ -61,7 +61,7 @@ jobs:
             exit 1
           fi
           echo "✅ publications.bib file found"
-          
+
       - name: Run Academic (Bibtex To Markdown Converter)
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
@@ -70,7 +70,7 @@ jobs:
           echo "🚀 Starting publication import..."
           academic import publications.bib content/publication/ --compact --verbose
           echo "✅ Publication import completed successfully"
-          
+
           # Verify that files were created
           if [ -d "content/publication" ] && [ "$(ls -A content/publication/)" ]; then
             echo "📚 Publications imported: $(ls content/publication/ | wc -l) items"
@@ -83,8 +83,8 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: 'feat(publications): import latest publications from bibtex'
-          title: 'HugoBlox Kit - Import latest publications from Bibtex'
+          commit-message: "feat(publications): import latest publications from bibtex"
+          title: "HugoBlox Kit - Import latest publications from Bibtex"
           body: |
             🔄 **Automated Publication Import**
 
