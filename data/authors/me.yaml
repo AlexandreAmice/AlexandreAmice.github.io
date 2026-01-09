@@ -1,4 +1,4 @@
-schema: "hugoblox/author/v1"
+schema: "hugoblox/author/v"
 slug: "me"
 is_owner: true
 name:
@@ -29,30 +29,12 @@ interests:
   - "Optimization"
   - "Robotics"
   - "Motion Planning"
-education:
-  - degree: "PhD Electrical Engineering and Computer Science"
-    institution: "MIT"
-    institution_logo: mit_logo
-    start: "2020-08-01"
-    end: ""
-    summary: "Research in optimization methods for the control and verification of complex dynamical systems."
-  - degree: "MS Robotics"
-    institution: "University of Pennsylvania"
-    institution_logo: penn-logo
-    summary: "Thesis: Optimal Constraint Relaxation: Theory and Application to Problems in Robotics"
-    start: "2018-01-01"
-    end: "2020-08-01"
-  - degree: "BSE Electrical Engineering and Mathematics"
-    institution: "University of Pennsylvania"
-    institution_logo: penn-logo
-    start: "2016-08-01"
-    end: "2020-05-31"
-    summary: "Summa Cum Laude"
+
 experience:
   - role: "Doctoral Student"
     org: "MIT"
     start: "2020-08-01"
-    summary: ""
+    summary: "Member of Russ Tedrake's Robot Locomotion Group and Pablo Parrilo's Optimization Group."
     date_start: "2020-08-01"
     date_end: ""
     company_logo: mit_logo
@@ -74,33 +56,46 @@ experience:
     end: "2019-08-20"
     company_logo: uber
     summary: "Research and development of radar perception systems."
-skills:
-  - name: "Technical Skills"
-    items:
-      - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
-        level: 4
-  - name: "Research & Communication"
-    items:
-      - label: "Academic Writing"
-        level: 5
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
-        level: 4
+education:
+  - degree: "PhD Electrical Engineering and Computer Science"
+    institution: "MIT"
+    institution_logo: mit_logo
+    start: "2020-08-01"
+    end: ""
+    summary: "Research in optimization methods for the control and verification of complex dynamical systems."
+  - degree: "MS Robotics"
+    institution: "University of Pennsylvania"
+    institution_logo: penn-logo
+    summary: "Thesis: Optimal Constraint Relaxation: Theory and Application to Problems in Robotics"
+    start: "2018-01-01"
+    end: "2020-08-01"
+  - degree: "BSE Electrical Engineering and Mathematics"
+    institution: "University of Pennsylvania"
+    institution_logo: penn-logo
+    start: "2016-08-01"
+    end: "2020-05-31"
+    summary: "Summa Cum Laude"
+# skills:
+#   - name: "Technical Skills"
+#     items:
+#       - label: "Python"
+#         level: 5
+#       - label: "Machine Learning"
+#         level: 5
+#       - label: "Cloud Computing"
+#         level: 4
+#   - name: "Research & Communication"
+#     items:
+#       - label: "Academic Writing"
+#         level: 5
+#       - label: "Conference Presentations"
+#         level: 4
+#       - label: "Grant Proposals"
+#         level: 4
 languages:
   - name: "English"
-    level: 5
+    label: "Native"
+  - name: "French"
     label: "Native"
   - name: "Spanish"
-    level: 4
-    label: "Fluent"
-awards:
-  - title: "Best Paper Award"
-    awarder: "NeurIPS"
-    date: "2022-12-01"
-    summary: "Awarded for groundbreaking work on efficient training of large models."
-    icon: "hero/trophy"
+    label: "Professional Proficiency"

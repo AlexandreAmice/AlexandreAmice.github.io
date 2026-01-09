@@ -156,3 +156,21 @@ MIT © 2016-Present [George Cushen](https://georgecushen.com)
 # Personal edits
 
 To a local preview do `pnpm dev`
+
+## Publication import (local)
+
+This repo keeps the BibTeX file at `data/publications.bib` and imports into
+`content/publication/`.
+
+```bash
+python -m venv /tmp/academic-venv
+source /tmp/academic-venv/bin/activate
+python -m pip install --upgrade pip
+pip install "academic>=0.10.0"
+
+academic import data/publications.bib content/publication/ --compact --verbose
+```
+
+Notes:
+- Existing publication folders are skipped unless you add `--overwrite`.
+- The GitHub Action is configured to read `data/publications.bib`.

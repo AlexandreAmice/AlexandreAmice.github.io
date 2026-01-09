@@ -1,0 +1,26 @@
+{{ $author := partial "functions/get_author_profile" (dict "slug" "me") }}
+{{ $github_links := where $author.links "icon" "eq" "brands/github" }}
+{{ with first 1 $github_links }}
+  {{ $github := index . 0 }}
+  <template id="hb-github-header-icon">
+    <a
+      class="inline-flex items-center px-3 text-[var(--color-header-fg)] hover:text-primary-500"
+      href="{{ $github.url | safeURL }}"
+      target="_blank" rel="noopener"
+      aria-label="GitHub">
+      {{ partial "functions/get_icon" (dict "name" $github.icon "attributes" "class=\"h-5 w-5\"") }}
+    </a>
+  </template>
+  <script>
+    (function() {
+      var target = document.querySelector('#site-header .navbar .order-1.ml-auto');
+      if (!target) return;
+      if (document.getElementById('hb-github-header-icon-injected')) return;
+      var tpl = document.getElementById('hb-github-header-icon');
+      if (!tpl || !tpl.content) return;
+      var node = tpl.content.firstElementChild.cloneNode(true);
+      node.id = 'hb-github-header-icon-injected';
+      target.insertBefore(node, target.firstChild);
+    })();
+  </script>
+{{ end }}
