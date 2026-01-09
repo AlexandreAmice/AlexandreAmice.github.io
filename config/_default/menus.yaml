@@ -23,6 +23,3 @@ main:
   - name: CV
     url: uploads/Amice_CV.pdf
     weight: 70
-  - name: '<i class="fab fa-github"; font-size: 1rem; line-height: 1.25"></i>'
-    url: "https://github.com/AlexandreAmice"
-    weight: 80

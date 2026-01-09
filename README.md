@@ -152,3 +152,7 @@ MIT © 2016-Present [George Cushen](https://georgecushen.com)
 
 <!--START_SECTION:news-->
 <!--END_SECTION:news-->
+
+# Personal edits
+
+To a local preview do `pnpm dev`

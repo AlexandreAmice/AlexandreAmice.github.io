@@ -1,187 +1,42 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# HUGO BLOX CONFIGURATION
-# Schema: hugoblox.com/schema/v2
-# Tutorial: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# ══════════════════════════════════════════════════════════════════════════════
 hugoblox:
   schema: "2.0"
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # IDENTITY
-  # Site-level branding (for people/profiles, use the author system in content/authors/)
-  # ────────────────────────────────────────────────────────────────────────────
   identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Alexandre Amice"
-    # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
-    # Schema.org type for structured data
-    type: person # person | organization | local_business
-    # Short tagline displayed on your site
+    name: Alexandre Amice
+    type: person
     tagline: ""
-    # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
-    # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "BuildLore" # Twitter/X handle for Twitter Cards (without @)
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # THEME
-  # Color and visual design system
-  # ────────────────────────────────────────────────────────────────────────────
+    description: ""
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
-    # Optional: Override theme pack colors
+    pack: minimal
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: ""
       secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
-    # Optional: Semantic surface color overrides
-    surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # TYPOGRAPHY
-  # Font and text sizing
-  # ────────────────────────────────────────────────────────────────────────────
+      neutral: ""
   typography:
-    # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-    font: "sans"
-    # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
-    size: "md"
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # LAYOUT
-  # Spacing and shape tokens
-  # ────────────────────────────────────────────────────────────────────────────
+    font: sans
+    size: md
   layout:
-    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
-    # Avatar shape in author profiles
-    avatar_shape: circle # circle | square | rounded
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # HEADER
-  # Site header and navigation bar
-  # ────────────────────────────────────────────────────────────────────────────
+    radius: md
+    spacing: comfortable
+    avatar_shape: circle
   header:
     enable: true
-    # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
-    # Stick to top on scroll
+    style: navbar
     sticky: true
-    # Menu alignment
-    align: center # left | center | right
-    # Feature toggles
-    search: false
+    align: center
+    search: true
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
-    # Call-to-action button
-    cta:
-      enable: false
-      text: ""
-      url: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # FOOTER
-  # Site footer
-  # ────────────────────────────────────────────────────────────────────────────
   footer:
-    # Footer style variant
-    style: minimal # minimal | columns | centered
+    style: minimal
     language_switcher: true
-    # Custom footer text (HTML supported)
-    text: ""
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # COPYRIGHT
-  # Legal notices and licensing
-  # ────────────────────────────────────────────────────────────────────────────
   copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
-    license:
-      type: cc # cc | custom
-      allow_derivatives: false
-      share_alike: false
-      allow_commercial: false
-
-# Localization
-locale:
-  date_format: "Jan 2, 2006"
-  time_format: "3:04 PM"
-
-# Site features
-features:
-  math:
-    enable: true
-    anonymize_analytics: true
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # DEBUG
-  # Development and debugging (hidden in production)
-  # ────────────────────────────────────────────────────────────────────────────
-  debug:
-    enable: false
-  repository:
-    url: "https://github.com/<username>/<repository>"
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ""
-    disqus:
-      shortname: ""
-      show_count: true
-    commento:
-      url: ""
-    giscus:
-      repo: ""
-      repo_id: ""
-      category: ""
-      category_id: ""
+    notice: © {year} {name}
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
   search:
-    provider: wowchemy
-    algolia:
-      app_id: ""
-      api_key: ""
-      index_name: ""
-      show_logo: false
-  map:
-    provider: ""
-    api_key: ""
-    zoom: 15
-
-# Extensions
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
     enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true

@@ -5,18 +5,18 @@ date: 2022-10-24
 type: landing
 
 sections:
-  # - block: about.avatar
+  # - block: resume-biography
   #   id: about
   #   content:
   #     # Choose a user profile to display (a folder name within `content/authors/`)
   #     username: admin
   #     # Override your bio text from `authors/admin/_index.md`?
   #     text:
-  - block: about.avatar
+  - block: resume-biography
     id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: me
       # Override your bio text from `authors/admin/_index.md`?
       text:
 
@@ -137,22 +137,12 @@ sections:
     content:
       title: CV
       subtitle: "[View my full CV](uploads/Amice_CV.pdf)"
-      text: 
+      text: "[Download my CV](uploads/Amice_CV.pdf)"
       
   
-  - block: collection
-    content:
-      title: Recent Publications
-      filters:
-        folders:
-          - publication
-        exclude_featured: False
-
   - block: markdown
     content:
       title: Contact Me
       subtitle: "[amice@mit.edu](mailto:amice@mit.edu)"
 
 ---
-
-
