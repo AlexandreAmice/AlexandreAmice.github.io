@@ -70,6 +70,8 @@ sections:
           tag: "*"
         - name: Geometry of Configuration Space
           tag: Geometry
+        - name: Optimization Software
+          tag: "Optimization Software"
         - name: Constraint Relaxation
           tag: "Constraint_Relax"
     design:

@@ -1,17 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Resilient control: Compromising to adapt'
-subtitle: ''
-summary: ''
+title: "Resilient control: Compromising to adapt"
+subtitle: ""
+summary: ""
 authors:
-- Luiz FO Chamon
-- Alexandre Amice
-- Santiago Paternain
-- Alejandro Ribeiro
+  - Luiz FO Chamon
+  - Alexandre Amice
+  - Santiago Paternain
+  - Alejandro Ribeiro
 tags: []
 categories: []
-date: '2020-01-01'
+date: "2020-01-01"
 lastmod: 2023-02-15T15:46:56-05:00
 featured: false
 draft: false
@@ -20,8 +20,8 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ''
-  focal_point: ''
+  caption: ""
+  focal_point: ""
   preview_only: false
 
 # Projects (optional).
@@ -30,10 +30,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: ["Constraint_Relax"]
-publishDate: '2023-02-15T20:46:56.022741Z'
+publishDate: "2023-02-15T20:46:56.022741Z"
 publication_types:
-- '1'
-abstract: — In optimal control problems, disturbances are typically dealt with using
+  - "1"
+abstract:
+  In optimal control problems, disturbances are typically dealt with using
   robust solutions, such as H∞ or tube model predictive control, that plan control
   actions feasible for the worst-case disturbance. Yet, planning for every contingency
   can lead to over-conservative, poorly performing solutions or even, in extreme cases,
@@ -51,5 +52,5 @@ abstract: — In optimal control problems, disturbances are typically dealt with
   By proving that robustness and resilience optimize different objectives, we show
   that these are in fact distinct system properties. We conclude by illustrating the
   effect of resilience in different control problems.
-publication: '*IEEE* Conference on Decision and Control'
+publication: "*IEEE* Conference on Decision and Control"
 ---
