@@ -3,19 +3,18 @@ title: Resilient Behavior Through Optimization
 summary: Resiliency of control systems and learning algorithms via counter-factual optimization
 tags:
   - Constraint_Relax
-date: '2020-05-27T00:00:00Z'
+date: "2020-05-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: ""
 
 image:
   focal_point: Smart
 
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -25,4 +24,4 @@ url_video: ''
 # PDF: example
 ---
 
-This project is a complete but this page is a work in progress
+Page under construction...

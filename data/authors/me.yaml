@@ -11,7 +11,12 @@ status:
   icon: ""
 role: "Final Year PhD Student at MIT CSAIL/LIDS"
 bio: |-
-  I am a final year PhD student in MIT's EECS Department advised by [Professor Pablo Parrilo](https://www.mit.edu/~parrilo/) and [Professor Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html). I am broadly interested in optimal and efficient decision making, especially for large scale or complex dynamical systems. I am particularly interested in exploiting polynomial and graph structure to obtain tractable algorithms for problems in control theory and certification. In addition to my research, I am an active contributor to [Drake](https://drake.mit.edu/), an open-source simulator for model-based design and control of robots.
+  I am a final-year PhD candidate at MIT, advised by Pablo Parrilo and Russ Tedrake, working at the intersection of mathematical optimization, robotics, and reliable autonomy. My research develops scalable algorithms for high-performance decision-making, particularly in robotics.
+
+  I am interested in the entire decision-making pipeline, from high-level modeling, high-performance solver implementations, and low-level linear algebra to enable faster optimal decisions. I specialize in semidefinite programming and sums-of-squares optimization and development of convex optimization solvers. A central theme in my work is turning mathematical structure into computation. 
+  I build algorithms that exploit polynomial, conic, and graph structure to make difficult problems tractable, and am committed to distributing robust, open-source implementations of my methods. 
+
+  I wrote CCosmo, a C++ first-order conic solver family, and VEGA, a decomposition solver for Graphs of Convex Sets. I am also an active contributor to Drake's optimization, geometry, and planning stack. I am interested in industrial research roles where rigorous optimization, scalable algorithms, and high-quality software can push the frontier of AI, robotics, autonomy, and scientific computing.
 affiliations:
   - name: "MIT"
 links:
@@ -34,16 +39,17 @@ experience:
   - role: "Doctoral Student"
     org: "MIT"
     start: "2020-08-01"
+    end: "2026-05-31"
     summary: "Member of Russ Tedrake's Robot Locomotion Group and Pablo Parrilo's Optimization Group."
     date_start: "2020-08-01"
-    date_end: ""
+    date_end: "2026-05-31"
     company_logo: mit_logo
   - role: "Open Source Developer"
     org: "Drake Robotics Toolbox"
     start: "2022-01-01"
     company_url: drake.mit.edu
     company_logo: drake-dragon
-    summary: "Contributions to symbolic algebra and mathematical optimization packages."
+    summary: "Contributions to planning, mathematical optimization, and symbolic algebra packages."
   - role: "Research Intern"
     org: "Robotics and AI Institute"
     start: "2023-05-30"
@@ -62,11 +68,11 @@ education:
     institution_logo: mit_logo
     start: "2020-08-01"
     end: ""
-    summary: "Research in optimization methods for the control and verification of complex dynamical systems."
+    summary: "Thesis: Strong Convex Relaxations and Tailored Conic Solvers with Application in Robotics"
   - degree: "MS Robotics"
     institution: "University of Pennsylvania"
     institution_logo: penn-logo
-    summary: "Thesis: Optimal Constraint Relaxation: Theory and Application to Problems in Robotics"
+    summary: "Thesis: Optimal Constraint Relaxation; Theory and Application to Problems in Robotics"
     start: "2018-01-01"
     end: "2020-08-01"
   - degree: "BSE Electrical Engineering and Mathematics"

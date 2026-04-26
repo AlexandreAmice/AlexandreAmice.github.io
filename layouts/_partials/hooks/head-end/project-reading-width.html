@@ -1,0 +1,10 @@
+{{ if and .IsPage (eq .Section "project") }}
+<style>
+  main > .prose[data-pagefind-body],
+  main > time[datetime] {
+    max-width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
+{{ end }}
