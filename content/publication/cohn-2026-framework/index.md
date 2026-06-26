@@ -8,6 +8,6 @@ authors:
 date: '2026-02-04'
 publishDate: '2026-04-26T18:05:00.000000Z'
 publication_types:
-- article-journal
+- article
 publication: '*arXiv preprint arXiv:2602.05092*'
 ---

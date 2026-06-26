@@ -6,7 +6,7 @@ title: Matroid-constrained approximately supermodular optimization for near-opti
 subtitle: ''
 summary: ''
 authors:
-- Luiz FO Chamon
+- Luiz F.O. Chamon
 - Alexandre Amice
 - Alejandro Ribeiro
 tags: []
@@ -32,7 +32,7 @@ image:
 projects: ["Matroid"]
 publishDate: '2023-02-15T20:46:56.285778Z'
 publication_types:
-- '1'
+- paper-conference
 abstract: 'This work considers the problem of scheduling actuators to minimize the
   Linear Quadratic Regulator (LQR) objective. In general, this problem is NP-hard
   and its solution can therefore only be approximated even for moderately large systems.

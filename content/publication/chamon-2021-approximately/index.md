@@ -5,7 +5,7 @@ title: Approximately supermodular scheduling subject to matroid constraints
 subtitle: ""
 summary: ""
 authors:
-  - Luiz FO Chamon
+  - Luiz F.O. Chamon
   - Alexandre Amice
   - Alejandro Ribeiro
 tags: []
@@ -31,7 +31,7 @@ image:
 projects: ["Matroid"]
 publishDate: "2023-02-15T21:08:41.791783Z"
 publication_types:
-  - "2"
+  - article-journal
 abstract:
   Control scheduling refers to the problem of assigning agents or actuators
   to act upon a dynamical system at specific times so as to minimize a quadratic control

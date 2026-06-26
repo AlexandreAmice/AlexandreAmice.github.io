@@ -5,7 +5,7 @@ title: "Resilient control: Compromising to adapt"
 subtitle: ""
 summary: ""
 authors:
-  - Luiz FO Chamon
+  - Luiz F.O. Chamon
   - Alexandre Amice
   - Santiago Paternain
   - Alejandro Ribeiro
@@ -32,7 +32,7 @@ image:
 projects: ["Constraint_Relax"]
 publishDate: "2023-02-15T20:46:56.022741Z"
 publication_types:
-  - "1"
+  - paper-conference
 abstract:
   In optimal control problems, disturbances are typically dealt with using
   robust solutions, such as H∞ or tube model predictive control, that plan control

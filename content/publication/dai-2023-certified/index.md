@@ -33,7 +33,7 @@ image:
 projects: ["C-IRIS"]
 publishDate: '2023-02-15T20:44:48.538760Z'
 publication_types:
-- '2'
+- article-journal
 abstract: Understanding the geometry of collision-free configuration space (C-free)
   in the presence of task-space obstacles is an essential ingredient for collision-free
   motion planning. While it is possible to check for collisions at a point using standard
@@ -52,5 +52,5 @@ abstract: Understanding the geometry of collision-free configuration space (C-fr
   2-DOF examples where the C-space can be visualized, as well as the scalability of
   our algorithm on a 7-DOF KUKA iiwa, a 6-DOF UR3e and 12-DOF bimanual manipulators.
   An implementation of our algorithm is open-sourced in Drake.
-publication: ''
+publication: "*The International Journal of Robotics Research*"
 ---
