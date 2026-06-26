@@ -33,7 +33,7 @@ image:
 projects: []
 publishDate: "2023-02-15T20:46:57.132490Z"
 publication_types:
-  - "1"
+  - paper-conference
 abstract:
   The notion of approximate information states (AIS) was introduced in (Subramanian
   2020) as a methodology for learning task-relevant state representations for control
@@ -55,5 +55,5 @@ abstract:
   itself or as part of mixed discrete- and continuous-state representations, due to
   its ability to represent logical state, to its potential interpretability, and to
   the availability of these stronger algorithms.
-publication: ""
+publication: "*American Control Conference*"
 ---

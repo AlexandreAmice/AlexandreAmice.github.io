@@ -30,7 +30,7 @@ image:
 projects: ["Poset_Least_Squares"]
 publishDate: "2023-02-15T20:46:56.835078Z"
 publication_types:
-  - "1"
+  - paper-conference
 abstract:
   We study a general class of least-squares problems structured according
   to a partially ordered set (poset). This is a fundamental optimization problem underlying

@@ -35,7 +35,7 @@ image:
 projects: ["C-IRIS"]
 publishDate: "2023-02-15T20:46:56.569204Z"
 publication_types:
-  - "1"
+  - paper-conference
 abstract:
   " Configuration space (C-space) has played a central role in collision-free
   motion planning, particularly for robot manipulators. While it is possible to check

@@ -14,7 +14,7 @@ permalink: /courses/6.S098/
 author_profile: true
 --- -->
 
-**Instructors:** [Alexandre Amice](mailto:amice@mit.edu), [Benoit Legat](mailto:blegat@mit.edu)
+**Instructors:** [Alexandre Amice](https://alexandreamice.github.io/), [Benoit Legat](https://blegat.github.io/)
 
 **Lectures:** Tuesday/Thursday 1:00-2:30pm January 4th - January 27th
 

@@ -32,7 +32,10 @@ image:
 projects: []
 publishDate: "2023-02-15T20:46:57.132490Z"
 publication_types:
-  - "2"
+  - article-journal
 abstract: Sums-of-squares (SOS) optimization is a promising tool to synthesize certifiable controllers for nonlinear dynamical systems. Building upon prior works, we demonstrate that SOS can synthesize dynamic controllers with bounded suboptimal performance for various underactuated robotic systems by finding good approximations of the value function. We summarize a unified SOS framework to synthesize both under- and over-approximations of the value function for continuous-time, control-affine systems, use these approximations to generate approximate optimal controllers, and perform regional analysis on the closed-loop system driven by these controllers. We then extend the formulation to handle hybrid systems with contacts. We demonstrate that our method can generate tight under- and over-approximations of the value function with low-degree polynomials, which are used to provide stabilizing controllers for continuous time systems including the inverted pendulum, the cart-pole, and the quadrotor as well as a hybrid system, the planar pusher. To the best of our knowledge, this is the first time that a SOS-based time-invariant controller can swing up and stabilize a cart-pole, and push the planar slider to the desired pose. Videos at https://youtu.be/QQRpPNPeyg; demo code at https://deepnote.com/workspace/lujieyang/project/hjb-sos.
-publication: ""
+publication: "*IEEE Robotics and Automation Letters*"
+links:
+  - type: pdf
+    url: Yang23a.pdf
 ---

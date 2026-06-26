@@ -9,19 +9,20 @@ name:
   pronunciation: ""
 status:
   icon: ""
-role: "Final Year PhD Student at MIT CSAIL/LIDS"
+role: "Recent PhD Graduate from MIT CSAIL/LIDS"
 bio: |-
-  I am a final-year PhD candidate at MIT, advised by Pablo Parrilo and Russ Tedrake, working at the intersection of mathematical optimization, robotics, and reliable autonomy. My research develops scalable algorithms for high-performance decision-making, particularly in robotics.
+  I recently earned my PhD in Electrical Engineering and Computer Science from MIT (May 2026) working with Pablo Parrilo and Russ Tedrake at the intersection of mathematical optimization, robotics, and reliable autonomy. **I am on the job market!** I am looking for research positions in optimization, robotics, and AI.
 
-  I am interested in the entire decision-making pipeline, from high-level modeling, high-performance solver implementations, and low-level linear algebra to enable faster optimal decisions. I specialize in semidefinite programming and sums-of-squares optimization and development of convex optimization solvers. A central theme in my work is turning mathematical structure into computation. 
+
+  My research develops scalable algorithms for high-performance decision-making, particularly in robotics. I am interested in the entire decision-making pipeline, from high-level modeling, high-performance solver implementations, and low-level linear algebra to enable faster optimal decisions. I specialize in semidefinite programming and sums-of-squares optimization and development of convex optimization solvers. A central theme in my work is turning mathematical structure into computation. 
   I build algorithms that exploit polynomial, conic, and graph structure to make difficult problems tractable, and am committed to distributing robust, open-source implementations of my methods. 
 
   I wrote CCosmo, a C++ first-order conic solver family, and VEGA, a decomposition solver for Graphs of Convex Sets. I am also an active contributor to Drake's optimization, geometry, and planning stack. I am interested in industrial research roles where rigorous optimization, scalable algorithms, and high-quality software can push the frontier of AI, robotics, autonomy, and scientific computing.
-affiliations:
-  - name: "MIT"
+# affiliations:
+#   - name: "MIT"
 links:
   - icon: "at-symbol"
-    url: "amice@mit.edu"
+    url: "mailto:alexandreamice6@gmail.com"
     label: "E-mail Me"
   - icon: "brands/github"
     url: "https://github.com/AlexandreAmice"
